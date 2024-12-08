@@ -1,0 +1,92 @@
+/* Check in 75% of the webpage */
+h1 {
+    color: magenta;
+    background-color: rgb(144, 243, 210);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.Main_class {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90vw;
+    height: 600px;
+    border: 2px solid transparent;
+    margin: 0px 80px;
+    background-image: linear-gradient(orange, white, green);
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.img {
+    width: 350px;
+    height: 450px;
+}
+
+.img1 {
+    border-radius: 0px 50%;
+    border: 5px solid orange;
+}
+
+.img2 {
+    border-radius: 50%;
+    border: 5px dotted orangered;
+}
+
+.img3 {
+    border-radius: 50% 50% 0px 0px;
+    border: 5px dashed green;
+}
+
+.img4 {
+    border-radius: 50% 0px;
+    border: 8px groove rgb(10, 159, 218);
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90vw;
+    height: 600px;
+    border: 2px solid green;
+    margin: 0px 80px;
+    background-image: radial-gradient(rgb(180, 53, 53), white, lightgreen);
+    border-radius: 50px;
+}
+
+.child {
+    height: 300px;
+    width: 350px;
+    text-align: center;
+    align-content: center;
+}
+
+.child1 {
+    border: 10px groove green;
+    border-radius: 0px 50% 50% 0px;
+    background-color: palegreen;
+    color: red;
+}
+
+.child2 {
+    border: 10px groove mediumaquamarine;
+    border-radius: 50% 0px 0px;
+    background-color: azure;
+    color: rgb(37, 3, 37);
+}
+
+.child3 {
+    border: 10px dotted rgb(227, 5, 38);
+    border-radius: 500px 0px;
+    background-color: rgb(193, 220, 140);
+    color: blue;
+}
+
+.child4 {
+    border: 10px groove rgb(176, 143, 148);
+    border-radius: 0px 0px 50% 50%;
+    background-color: rgb(145, 249, 249);
+    color: rgb(241, 3, 230);
+}
